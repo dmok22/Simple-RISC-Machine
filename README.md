@@ -1,7 +1,10 @@
-# Simple Risc Machine Project
+# RISC Machine FPGA Board
 
-This project uses a De1-SoC FPGA Board.
+A pipelined, superscalar processor with UBC CPEN211 Simple-Risc-Machine ISA
+
+
 
 ## Files
 Alu
+
 
