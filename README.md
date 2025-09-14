@@ -28,6 +28,12 @@ It is tested with Cyclone-V FPGA on DE1-SoC. Other Verilog software tools and FP
     * Datapath connection
     * Control signals from the instruction decoder.
     * Interface to memory (instruction/data).
+* Datapath
+  *  Describes data flows between registers, ALU, shifter, memory
+* Regfile
+  * Implement CPU's register bank
+* shifter
+  * Performs bit shifts and rotations
 
 ## Build process
 1. Add all .sv files to your project.
@@ -45,6 +51,7 @@ Address	Function	Note
 When compiled, both I.M. and D.M. will be initialzed with data.txt. System reset will reset the program counter to 0x00 and your program will start from there. I.M. will stay unchanged while the CPU is running. All LDR/STR instructions are directed to D.M.
 
 You may add your custom Peripherals to the bus. Important: consecutive memory access are not guaranteed volatile. If volatile behavior is essential, insert at least one other instruction (such as NOP) between two LDR/STR.
+
 
 
 
