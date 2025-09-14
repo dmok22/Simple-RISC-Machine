@@ -1,0 +1,104 @@
+C:/Users/berty/Downloads/lab-7-l1e-m1lun/regfile_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/berty/Downloads/lab-7-l1e-m1lun/regfile_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module regfile_tb
+
+Top level modules:
+	regfile_tb
+
+} {} {}} C:/Users/berty/Downloads/lab-7-l1e-m1lun/cpu_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/berty/Downloads/lab-7-l1e-m1lun/cpu_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cpu_tb
+
+Top level modules:
+	cpu_tb
+
+} {} {}} C:/Users/berty/Downloads/lab-7-l1e-m1lun/lab7_autograder_check.sv {1 {vlog -work work -sv -stats=none C:/Users/berty/Downloads/lab-7-l1e-m1lun/lab7_autograder_check.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lab7_check_tb
+
+Top level modules:
+	lab7_check_tb
+
+} {} {}} C:/Users/berty/Downloads/lab-7-l1e-m1lun/lab7_top.sv {1 {vlog -work work -sv -stats=none C:/Users/berty/Downloads/lab-7-l1e-m1lun/lab7_top.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lab7_top
+-- Compiling module comb
+-- Compiling module memory
+-- Compiling module vDFF
+-- Compiling module sseg
+
+Top level modules:
+	lab7_top
+	vDFF
+	sseg
+
+} {} {}} C:/Users/berty/Downloads/lab-7-l1e-m1lun/alu.sv {1 {vlog -work work -sv -stats=none C:/Users/berty/Downloads/lab-7-l1e-m1lun/alu.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} C:/Users/berty/Downloads/lab-7-l1e-m1lun/shifter_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/berty/Downloads/lab-7-l1e-m1lun/shifter_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module shifter_tb
+
+Top level modules:
+	shifter_tb
+
+} {} {}} C:/Users/berty/Downloads/lab-7-l1e-m1lun/datapath_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/berty/Downloads/lab-7-l1e-m1lun/datapath_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module datapath_tb
+
+Top level modules:
+	datapath_tb
+
+} {} {}} C:/Users/berty/Downloads/lab-7-l1e-m1lun/lab7_top_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/berty/Downloads/lab-7-l1e-m1lun/lab7_top_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module lab7_top_tb
+
+Top level modules:
+	lab7_top_tb
+
+} {} {}} C:/Users/berty/Downloads/lab-7-l1e-m1lun/shifter.sv {1 {vlog -work work -sv -stats=none C:/Users/berty/Downloads/lab-7-l1e-m1lun/shifter.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} C:/Users/berty/Downloads/lab-7-l1e-m1lun/regfile.sv {1 {vlog -work work -sv -stats=none C:/Users/berty/Downloads/lab-7-l1e-m1lun/regfile.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module regfile
+-- Compiling module Dec
+-- Compiling module Mux8
+-- Compiling module REG
+
+Top level modules:
+	regfile
+
+} {} {}} C:/Users/berty/Downloads/lab-7-l1e-m1lun/alu_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/berty/Downloads/lab-7-l1e-m1lun/alu_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module ALU_tb
+
+Top level modules:
+	ALU_tb
+
+} {} {}} C:/Users/berty/Downloads/lab-7-l1e-m1lun/datapath.sv {1 {vlog -work work -sv -stats=none C:/Users/berty/Downloads/lab-7-l1e-m1lun/datapath.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module datapath
+-- Compiling module Mux4
+
+Top level modules:
+	datapath
+
+} {} {}} C:/Users/berty/Downloads/lab-7-l1e-m1lun/cpu.sv {1 {vlog -work work -sv -stats=none C:/Users/berty/Downloads/lab-7-l1e-m1lun/cpu.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module cpu
+-- Compiling module instruction_dec
+-- Compiling module state_machine
+
+Top level modules:
+	cpu
+
+} {} {}}
