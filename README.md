@@ -16,6 +16,8 @@ Build
 Simple RISC-Machine is developed with Quartus Prime 18.1 and ModelSim 10.5b.
 
 It is tested with Cyclone-V FPGA on DE1-SoC. Other Verilog software tools and FPGAs may also work, but you may have to modify the top module and pin assignments.
+
+
 <img width="695" height="805" alt="image" src="https://github.com/user-attachments/assets/1027f401-7d0a-4810-a70a-5313280f01a6" />
 
 ## Files
@@ -43,6 +45,7 @@ Address	Function	Note
 When compiled, both I.M. and D.M. will be initialzed with data.txt. System reset will reset the program counter to 0x00 and your program will start from there. I.M. will stay unchanged while the CPU is running. All LDR/STR instructions are directed to D.M.
 
 You may add your custom Peripherals to the bus. Important: consecutive memory access are not guaranteed volatile. If volatile behavior is essential, insert at least one other instruction (such as NOP) between two LDR/STR.
+
 
 
 
