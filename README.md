@@ -37,12 +37,10 @@ It is tested with Cyclone-V FPGA on DE1-SoC. Other Verilog software tools and FP
 
 ## Build process
 1. Add all .sv files to your project.
-2. Use KaiserLake_top as your top module.
+2. Use lab7_top as your top module.
 3. Create or modify data.txt to initialize system RAM.
    
 ## Memories
-To minimize read/write comflict, KaiserLake has separate I.M. and D.M. for the CPU.
-
 SRM ISA requires 16bit memory data bitwidth and 9bit address space. The memory mapping are shown below:
 
 Address	Function	Note
@@ -51,6 +49,7 @@ Address	Function	Note
 When compiled, both I.M. and D.M. will be initialzed with data.txt. System reset will reset the program counter to 0x00 and your program will start from there. I.M. will stay unchanged while the CPU is running. All LDR/STR instructions are directed to D.M.
 
 You may add your custom Peripherals to the bus. Important: consecutive memory access are not guaranteed volatile. If volatile behavior is essential, insert at least one other instruction (such as NOP) between two LDR/STR.
+
 
 
 
